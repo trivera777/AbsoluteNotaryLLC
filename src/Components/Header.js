@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import logo from '../logo.png'
+import logo from '../logo2.png'
+import './header.css'
 
 function Header() {
   return (
@@ -11,9 +12,9 @@ function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav >
-            <Nav.Link href="#deets">More deets</Nav.Link>
+            <Nav.Link href="#deets">Credentials</Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
-              Dank memes
+              Contact
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
