@@ -1,11 +1,12 @@
 import React from "react";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
+import logo from '../logo.png'
 
 function Header() {
   return (
     <Navbar collapseOnSelect expand="lg">
       <Container>
-        <Navbar.Brand href="#home">Absolute Notary LLC</Navbar.Brand>
+        <Navbar.Brand href="#home"><img src={logo} alt="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
