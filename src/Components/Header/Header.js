@@ -6,7 +6,7 @@ import "./header.css";
 function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" sticky="top" className="navbar">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="#about">
         <img src={logo} alt="logo" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
