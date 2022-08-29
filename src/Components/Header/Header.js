@@ -5,7 +5,7 @@ import "./header.css";
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="navbar">
+    <Navbar collapseOnSelect expand="lg" sticky="top" className="navbar">
       <Navbar.Brand href="#home">
         <img src={logo} alt="logo" />
       </Navbar.Brand>
