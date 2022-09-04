@@ -5,7 +5,8 @@ import { Card } from "react-bootstrap";
 function About() {
   return (
     <div className="about" id="about">
-      <Card>
+        about
+      {/* <Card>
         <Card.Header>About</Card.Header>
         <Card.Body>
           <blockquote className="blockquote mb-0">
@@ -29,7 +30,7 @@ function About() {
             </footer>
           </blockquote>
         </Card.Body>
-      </Card>
+      </Card> */}
     </div>
   );
 }
