@@ -1,8 +1,8 @@
 import React from "react";
 import "./credentials.css";
-import { Card } from "react-bootstrap";
-import certificate from "../../lss.png";
-import nsa from "../../nsa.png";
+// import { Card } from "react-bootstrap";
+// import certificate from "../../lss.png";
+// import nsa from "../../nsa.png";
 
 function Credentials() {
   return (
