@@ -1,4 +1,5 @@
-/* 
-body {
+
+.app {
   height: 100vh;
-} */
+  background-color: #EDE8E4;
+}

@@ -7,7 +7,8 @@ import nsa from "../../nsa.png";
 function Credentials() {
   return (
     <div className="credentials" id="credentials">
-      <Card>
+        credentials
+      {/* <Card>
         <Card.Header>Credentials</Card.Header>
         <Card.Body>
           <blockquote className="blockquote mb-0">
@@ -17,7 +18,7 @@ function Credentials() {
             </p>
           </blockquote>
         </Card.Body>
-      </Card>
+      </Card> */}
     </div>
   );
 }
