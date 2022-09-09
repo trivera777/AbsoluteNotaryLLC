@@ -5,11 +5,10 @@ import { Card } from "react-bootstrap";
 function About() {
   return (
     <div className="about" id="about">
-        about
-      {/* <Card>
-        <Card.Header>About</Card.Header>
+      <Card>
         <Card.Body>
           <blockquote className="blockquote mb-0">
+        <h2>About</h2>
             <p>
               {" "}
               I am a professional and certified NNA Notary Public & Notary Loan
@@ -30,7 +29,7 @@ function About() {
             </footer>
           </blockquote>
         </Card.Body>
-      </Card> */}
+      </Card>
     </div>
   );
 }
