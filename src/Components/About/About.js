@@ -7,8 +7,6 @@ import files from "../../files.png";
 function About() {
   return (
     <div className="about" id="about">
-      <Card>
-        <Card.Body>
           <blockquote className="blockquote mb-0">
             <h2>about.</h2>
             <img src={files} className="files" alt="Files" />
@@ -24,10 +22,8 @@ function About() {
               client and I can confidently give a brief overviews, if needed,
               without stepping outside the scope of my roles as a signing agent.
               I look forward to being your preferred signing agent!
-            </p>
+            </p><br />
           </blockquote>
-        </Card.Body>
-      </Card>
     </div>
   );
 }
