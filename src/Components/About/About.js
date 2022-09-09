@@ -1,12 +1,11 @@
 import React from "react";
 import "./about.css";
 import { Card } from "react-bootstrap";
-import files from "../../files.png";
+import files from "./files.png";
 
 function About() {
   return (
     <div className="about" id="about">
-      <Card>
         <blockquote className="blockquote mb-0">
           <h2>about.</h2>
           <img src={files} className="files" alt="Files" />
@@ -23,9 +22,7 @@ function About() {
             outside the scope of my roles as a signing agent. I look forward to
             being your preferred signing agent!
           </p>
-          <br />
         </blockquote>
-      </Card>
     </div>
   );
 }
