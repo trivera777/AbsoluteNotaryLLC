@@ -7,7 +7,15 @@ import nsa from "../../nsa.png";
 function Credentials() {
   return (
     <div className="credentials" id="credentials">
-      credn\
+      <Card>
+        <blockquote className="blockquote mb-0">
+          <h2>credentials.</h2>
+          <p>
+         
+          </p>
+          <br />
+        </blockquote>
+      </Card>
     </div>
   );
 }
