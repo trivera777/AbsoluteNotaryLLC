@@ -5,7 +5,10 @@ import { Card } from "react-bootstrap";
 function About() {
   return (
     <div className="about" id="about">
-      <Card>
+      <Card
+      style={{
+        backgroundColor: "#EDE8E4"
+      }}>
         <Card.Body>
           <blockquote className="blockquote mb-0">
             <h2>about.</h2>
