@@ -1,13 +1,15 @@
 import React from "react";
 // import { Card, Figure } from "react-bootstrap";
+import {Divider} from '@mui/material';
+
 import invoice from "./invoice.png";
 import './fees.css'
 
 function Fees(){
     return (
         <div className="fees" id="fees">
+            <Divider textAlign="left">FEES</Divider><br />
         <blockquote className="blockquote mb-0">
-          <h2>fees.</h2>
           <img src={invoice} className="files" alt="Files" />
           <ul>
               <li>Loan Signing: $150</li>

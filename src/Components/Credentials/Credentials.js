@@ -1,6 +1,7 @@
 import React from "react";
 import "./credentials.css";
 import { Card, Figure } from "react-bootstrap";
+import {Divider} from '@mui/material';
 import certificate from "./lss.png";
 import nsa from "./nsa.png";
 import nsabc from "./nsabc.png";
@@ -9,7 +10,7 @@ import badge from "./badge.png";
 function Credentials() {
   return (
     <div className="credentials" id="credentials">
-      <h2>credentials.</h2>
+            <Divider textAlign="center">CREDENTIALS</Divider><br />
       <Figure className="credentialsContainer">
       <Figure.Image
         width={171}
