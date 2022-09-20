@@ -1,27 +1,30 @@
 import React from "react";
-// import { Card, Figure } from "react-bootstrap";
-import {Divider} from '@mui/material';
+import { ListGroup } from "react-bootstrap";
+import { Divider } from "@mui/material";
 
 import invoice from "./invoice.png";
-import './fees.css'
+import "./fees.css";
 
-function Fees(){
-    return (
-        <div className="fees" id="fees">
-            <Divider textAlign="left">FEES</Divider><br />
+function Fees() {
+  return (
+    <div className="fees" id="fees">
+      <Divider textAlign="left">FEES</Divider>
+      <br />
+      <div className="container">
         <blockquote className="blockquote mb-0">
           <img src={invoice} className="files" alt="Files" />
-          <ul>
-              <li>Loan Signing: $150</li>
-              <li>Full Purchase: $150</li>
-              <li>Reverse Mortgage: $150</li>
-              <li>Extra for E-Docs: $0</li>
-              <li>Loan Application: $75</li>
-              <li>Cash Deal: $100</li>
-              
-          </ul>
+
+          <ListGroup variant="flush">
+            <ListGroup.Item>Loan Signing: $150</ListGroup.Item>
+            <ListGroup.Item>Full Purchase: $150</ListGroup.Item>
+            <ListGroup.Item>Reverse Mortgage: $150</ListGroup.Item>
+            <ListGroup.Item>Extra for E-Docs: $0</ListGroup.Item>
+            <ListGroup.Item>Loan Application: $75</ListGroup.Item>
+            <ListGroup.Item>Cash Deal: $100</ListGroup.Item>
+          </ListGroup>
         </blockquote>
+      </div>
     </div>
-    )
+  );
 }
 export default Fees;

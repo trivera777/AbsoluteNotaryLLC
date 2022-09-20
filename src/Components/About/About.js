@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import { Card } from "react-bootstrap";
+// import { Card } from "react-bootstrap";
 import { Divider } from "@mui/material";
 import files from "./files.png";
 

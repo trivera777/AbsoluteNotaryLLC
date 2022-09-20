@@ -1,11 +1,11 @@
 import React from "react";
 import "./credentials.css";
-import { Card, Figure } from "react-bootstrap";
+import { Figure } from "react-bootstrap";
 import {Divider} from '@mui/material';
 import certificate from "./lss.png";
 import nsa from "./nsa.png";
 import nsabc from "./nsabc.png";
-import badge from "./badge.png";
+// import badge from "./badge.png";
 
 function Credentials() {
   return (

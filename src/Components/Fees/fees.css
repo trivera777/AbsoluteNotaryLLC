@@ -1,11 +1,13 @@
 .fees {
-    background-color: #fff;
-    width: 100vw;
-    padding: 20px;
-  }
+  background-color: #fff;
+  width: 100vw;
+  padding: 20px;
+}
 
-  .fees
-  img {
-      float: right;
-  }
-  
+.container {
+    padding: 50px;
+}
+.container img {
+  float: right;
+  height: 400px;
+}
