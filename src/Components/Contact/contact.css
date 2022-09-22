@@ -3,4 +3,17 @@
   background-color: #fff;
   width: 100vw;
   padding: 20px;
+
 }
+
+.contactContainer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 50px;
+}
+
+.files {
+  height: 400px;
+}
+
