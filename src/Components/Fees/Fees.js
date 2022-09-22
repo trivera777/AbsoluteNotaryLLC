@@ -1,5 +1,5 @@
 import React from "react";
-import { ListGroup } from "react-bootstrap";
+import { ListGroup, Badge } from "react-bootstrap";
 import { Divider } from "@mui/material";
 
 import invoice from "./invoice.png";
@@ -15,7 +15,12 @@ function Fees() {
           <img src={invoice} className="files" alt="Files" />
 
           <ListGroup variant="flush">
-            <ListGroup.Item>Loan Signing: $150</ListGroup.Item>
+            <ListGroup.Item>
+              <Badge bg="light" text="dark">
+                Light
+              </Badge>
+              Loan Signing: $150
+            </ListGroup.Item>
             <ListGroup.Item>Full Purchase: $150</ListGroup.Item>
             <ListGroup.Item>Reverse Mortgage: $150</ListGroup.Item>
             <ListGroup.Item>Extra for E-Docs: $0</ListGroup.Item>
