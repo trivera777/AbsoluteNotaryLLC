@@ -1,12 +1,12 @@
 .fees {
-    height: 60vh;
+  height: 60vh;
   background-color: #fff;
   width: 100vw;
   padding: 20px;
 }
 
 .container {
-    padding: 50px;
+  padding: 50px;
 }
 .container img {
   float: right;

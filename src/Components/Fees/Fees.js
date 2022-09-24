@@ -15,17 +15,42 @@ function Fees() {
           <img src={invoice} className="files" alt="Files" />
 
           <ListGroup variant="flush">
-            <ListGroup.Item>
+            <ListGroup.Item disabled>
+              Loan Signing:
               <Badge bg="light" text="dark">
-                Light
+                $150
               </Badge>
-              Loan Signing: $150
             </ListGroup.Item>
-            <ListGroup.Item>Full Purchase: $150</ListGroup.Item>
-            <ListGroup.Item>Reverse Mortgage: $150</ListGroup.Item>
-            <ListGroup.Item>Extra for E-Docs: $0</ListGroup.Item>
-            <ListGroup.Item>Loan Application: $75</ListGroup.Item>
-            <ListGroup.Item>Cash Deal: $100</ListGroup.Item>
+            <ListGroup.Item disabled>
+              Full Purchase:{" "}
+              <Badge bg="light" text="dark">
+                $150
+              </Badge>
+            </ListGroup.Item>
+            <ListGroup.Item disabled>
+              Reverse Mortgage:{" "}
+              <Badge bg="light" text="dark">
+                $150
+              </Badge>
+            </ListGroup.Item>
+            <ListGroup.Item disabled>
+              Extra for E-Docs:{" "}
+              <Badge bg="light" text="dark">
+                no fee
+              </Badge>
+            </ListGroup.Item>
+            <ListGroup.Item disabled>
+              Loan Application:{" "}
+              <Badge bg="light" text="dark">
+                $75
+              </Badge>
+            </ListGroup.Item>
+            <ListGroup.Item disabled>
+              Cash Deal:{" "}
+              <Badge bg="light" text="dark">
+                $100
+              </Badge>
+            </ListGroup.Item>
           </ListGroup>
         </blockquote>
       </div>
