@@ -13,19 +13,19 @@ function Credentials() {
             <Divider textAlign="center">CREDENTIALS</Divider><br />
       <Figure className="credentialsContainer">
       <Figure.Image
-        width={171}
-        height={180}
+        width={200}
+        height={200}
         alt="171x180"
         src={nsabc}
       />
       <Figure.Image
-        width={171}
-        height={180}
+        width={200}
+        height={200}
         alt="171x180"
         src={nsa}
       />
       <Figure.Image
-        width={250}
+        width={300}
         height={180}
         alt="171x180"
         src={certificate}
