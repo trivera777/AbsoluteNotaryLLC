@@ -5,10 +5,9 @@
   padding: 70px;
 }
 
-.container {
-  padding: 50px;
-}
 .container img {
   float: right;
-  height: 400px;
+  height: 350px;
+  margin-right: 100px;
+  margin-left: 70px;
 }

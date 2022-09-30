@@ -14,39 +14,63 @@ function Fees() {
         <blockquote className="blockquote mb-0">
           <img src={invoice} className="files" alt="Files" />
 
-          <ListGroup variant="flush">
-            <ListGroup.Item disabled>
-              Loan Signing:
+          <ListGroup variant="flush" style={{marginLeft: "150px"}}>
+            <ListGroup.Item
+              as="li"
+              className="d-flex justify-content-between align-items-start"
+              disabled
+            >
+              <div className="ms-2 me-auto">Loan Signing</div>
               <Badge bg="light" text="dark">
                 $150
               </Badge>
             </ListGroup.Item>
-            <ListGroup.Item disabled>
-              Full Purchase:{" "}
+            <ListGroup.Item
+              as="li"
+              className="d-flex justify-content-between align-items-start"
+              disabled
+            >
+              <div className="ms-2 me-auto">Full Purchase</div>
               <Badge bg="light" text="dark">
                 $150
               </Badge>
             </ListGroup.Item>
-            <ListGroup.Item disabled>
-              Reverse Mortgage:{" "}
+            <ListGroup.Item
+              as="li"
+              className="d-flex justify-content-between align-items-start"
+              disabled
+            >
+              <div className="ms-2 me-auto">Reverse Mortgage</div>
               <Badge bg="light" text="dark">
                 $150
               </Badge>
             </ListGroup.Item>
-            <ListGroup.Item disabled>
-              Extra for E-Docs:{" "}
+            <ListGroup.Item
+              as="li"
+              className="d-flex justify-content-between align-items-start"
+              disabled
+            >
+              <div className="ms-2 me-auto">Extra for E-Docs</div>
               <Badge bg="light" text="dark">
-                no fee
+                $0
               </Badge>
             </ListGroup.Item>
-            <ListGroup.Item disabled>
-              Loan Application:{" "}
+            <ListGroup.Item
+              as="li"
+              className="d-flex justify-content-between align-items-start"
+              disabled
+            >
+              <div className="ms-2 me-auto">Loan Application</div>
               <Badge bg="light" text="dark">
                 $75
               </Badge>
             </ListGroup.Item>
-            <ListGroup.Item disabled>
-              Cash Deal:{" "}
+            <ListGroup.Item
+              as="li"
+              className="d-flex justify-content-between align-items-start"
+              disabled
+            >
+              <div className="ms-2 me-auto">Cash Deal</div>
               <Badge bg="light" text="dark">
                 $100
               </Badge>
