@@ -14,7 +14,10 @@ function Header() {
         <Nav className="me-auto"></Nav>
         <Nav>
           <Nav.Link href="#credentials">Credentials</Nav.Link>
-          <Nav.Link eventKey={2} href="#contact">
+          <Nav.Link eventKey={2} href="#fees">
+            Fees
+          </Nav.Link>
+          <Nav.Link eventKey={3} href="#contact">
             Contact
           </Nav.Link>
         </Nav>
