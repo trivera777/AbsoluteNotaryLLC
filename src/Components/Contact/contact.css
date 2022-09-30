@@ -3,18 +3,15 @@
   background-color: #fff;
   width: 100vw;
   padding: 20px;
-
 }
 
 .contactContainer {
   display: flex;
   align-items: center;
-  justify-items: center;
-  align-content: center;
   justify-content: center;
+  padding: 20px;
 }
 
 .files {
   height: 400px;
 }
-
