@@ -4,6 +4,10 @@
   padding: 40px;
   background-color: #fff;
 }
+.divider {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
 
 h2 {
   font-family: 'Courgette', cursive;

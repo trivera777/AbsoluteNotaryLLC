@@ -7,7 +7,7 @@ import files from "./files.png";
 function About() {
   return (
     <div className="about" id="about">
-      <Divider textAlign="right">ABOUT</Divider>
+      <Divider textAlign="right" className="divider">ABOUT</Divider>
       <br />
       <blockquote className="blockquote mb-0">
         <img src={files} className="files" alt="Files" />
