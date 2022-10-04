@@ -8,7 +8,7 @@ import "./fees.css";
 function Fees() {
   return (
     <div className="fees" id="fees">
-      <Divider textAlign="left">FEES</Divider>
+      <Divider textAlign="left" className="divider">FEES</Divider>
       <br />
       <div className="container">
         <blockquote className="blockquote mb-0">

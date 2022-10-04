@@ -10,7 +10,7 @@ import nsabc from "./nsabc.png";
 function Credentials() {
   return (
     <div className="credentials" id="credentials">
-            <Divider textAlign="center">CREDENTIALS</Divider><br />
+            <Divider textAlign="center" className="divider">CREDENTIALS</Divider><br />
       <Figure className="credentialsContainer">
       <Figure.Image
         width={200}

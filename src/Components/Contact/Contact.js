@@ -7,7 +7,7 @@ import { LocalPhone, Email } from "@mui/icons-material";
 function Contact() {
   return (
     <div className="contact" id="contact">
-      <Divider textAlign="left">CONTACT</Divider>
+      <Divider textAlign="left" className="divider">CONTACT</Divider>
       <div className="contactContainer">
         <img src={email} className="files" alt="Files" />
         <ul>
