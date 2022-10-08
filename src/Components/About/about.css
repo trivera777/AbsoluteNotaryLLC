@@ -25,6 +25,9 @@ p {
 
 @media only screen and (max-width: 720px) {
   .about {
+    display: flex;
+    align-content: center;
+    justify-content: center;
       width: 100vw;
       height: 100vh;
   }
