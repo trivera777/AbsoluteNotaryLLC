@@ -14,3 +14,20 @@
 .files {
   height: 400px;
 }
+
+
+@media only screen and (max-width: 720px) {
+  .contact {
+    align-items: center;
+    justify-content: center;
+      width: 100vw;
+      height: 100vh;
+  }
+  .contactContainer {
+    display: inline-block;
+    align-content: center;
+    justify-items: center;
+      width: 100vw;
+      height: 100vh;
+  }
+}
