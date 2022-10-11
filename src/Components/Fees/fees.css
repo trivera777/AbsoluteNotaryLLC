@@ -14,15 +14,16 @@
 
 @media only screen and (max-width: 720px) {
   .fees {
-    
-    align-content: center;
-    justify-content: center;
     width: 100vw;
     height: 100vh;
   }
   .container {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
   }
 }
+/* flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 0px; */
