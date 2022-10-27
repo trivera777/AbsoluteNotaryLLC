@@ -1,14 +1,14 @@
 img {
-    height: 100px;
-    margin-left: 10px;
+  height: 100px;
+  margin-left: 10px;
 }
 
 .navbar {
-    background-color: #EDE8E4;
+  background-color: #ede8e4;
 }
 
 @media only screen and (max-width: 720px) {
-    .navbar {
-        width: 121%;
-    }
+  .navbar {
+    width: 121%;
   }
+}

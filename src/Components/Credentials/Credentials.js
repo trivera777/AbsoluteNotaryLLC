@@ -1,7 +1,7 @@
 import React from "react";
 import "./credentials.css";
 import { Figure } from "react-bootstrap";
-import {Divider} from '@mui/material';
+import { Divider } from "@mui/material";
 import certificate from "./lss.png";
 import nsa from "./nsa.png";
 import nsabc from "./nsabc.png";
@@ -10,27 +10,20 @@ import nsabc from "./nsabc.png";
 function Credentials() {
   return (
     <div className="credentials" id="credentials">
-            <Divider textAlign="center" className="divider">CREDENTIALS</Divider><br />
+      <Divider textAlign="center" className="divider">
+        CREDENTIALS
+      </Divider>
+      <br />
       <Figure className="credentialsContainer">
-      <Figure.Image
-        width={200}
-        height={200}
-        alt="171x180"
-        src={nsabc}
-      />
-      <Figure.Image
-        width={200}
-        height={200}
-        alt="171x180"
-        src={nsa}
-      />
-      <Figure.Image
-        width={300}
-        height={180}
-        alt="171x180"
-        src={certificate}
-      />
-    </Figure>
+        <Figure.Image width={200} height={200} alt="171x180" src={nsabc} />
+        <Figure.Image width={200} height={200} alt="171x180" src={nsa} />
+        <Figure.Image
+          width={300}
+          height={180}
+          alt="171x180"
+          src={certificate}
+        />
+      </Figure>
 
       {/* <img
         src={nsa}

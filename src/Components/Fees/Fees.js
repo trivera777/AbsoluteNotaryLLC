@@ -8,13 +8,15 @@ import "./fees.css";
 function Fees() {
   return (
     <div className="fees" id="fees">
-      <Divider textAlign="left" className="divider">FEES</Divider>
+      <Divider textAlign="left" className="divider">
+        FEES
+      </Divider>
       <br />
       <div className="container">
         <blockquote className="blockquote mb-0">
           <img src={invoice} className="files" alt="Files" />
 
-          <ListGroup variant="flush" style={{marginLeft: "150px"}}>
+          <ListGroup variant="flush" style={{ marginLeft: "150px" }}>
             <ListGroup.Item
               as="li"
               className="d-flex justify-content-between align-items-start"

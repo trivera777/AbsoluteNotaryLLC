@@ -15,11 +15,10 @@
   height: 400px;
 }
 
-
 @media only screen and (max-width: 720px) {
   .contact {
-      width: 100vw;
-      height: 75vh;
+    width: 100vw;
+    height: 75vh;
   }
   .contactContainer {
     flex-direction: column;
