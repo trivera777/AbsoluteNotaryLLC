@@ -1,7 +1,6 @@
 .contact {
-  margin-top: 5px;
-  height: 42vh;
-  padding: 60px;
+  height: 100vh;
+  width: 100vw;
 }
 
 .contactContainer {
@@ -14,7 +13,7 @@
 .files {
   height: 400px;
 }
-
+/* 
 @media only screen and (max-width: 720px) {
   .contact {
     width: 100vw;
@@ -26,4 +25,4 @@
     display: flex;
     display: inline-block;
   }
-}
+} */

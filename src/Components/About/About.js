@@ -11,7 +11,7 @@ function About() {
         ABOUT
       </Divider>
       <br />
-      <blockquote className="blockquote mb-0">
+      <blockquote className="blockquote aboutContainer mb-0">
         <img src={files} className="files" alt="Files" />
         <p>
           I am a professional and certified NNA Notary Loan Signing Agent. I am
