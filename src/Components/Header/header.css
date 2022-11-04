@@ -9,6 +9,6 @@ img {
 
 @media only screen and (max-width: 720px) {
   .navbar {
-    width: 121%;
+    width: 100vw;
   }
 }
